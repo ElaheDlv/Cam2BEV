@@ -240,3 +240,9 @@ You will need to run the preprocessing methods on your own data. A rough outline
 - adjust or create a new one-hot conversion file ([model/one_hot_conversion](model/one_hot_conversion))
 - set all training parameters in a dedicated config file
 - start training
+
+
+##### my code setting
+./ipm.py --batch --cc     --output /home/elahed/users/elahe/Cam2BEV/My_data/output/homography     --drone /home/elahed/users/elahe/Cam2BEV/My_data/camera_config/bev.yaml     /home/elahed/users/elahe/Cam2BEV/My_data/camera_config/front.yaml     home/elahed/users/elahe/Cam2BEV/My_data/output/front/segmentation_images     /home/elahed/users/elahe/Cam2BEV/My_data/camera_config/rear.yaml     /home/elahed/users/elahe/Cam2BEV/My_data/output/rear/segmentation_images     /home/elahed/users/elahe/Cam2BEV/My_data/camera_config/left.yaml     /home/elahed/users/elahe/Cam2BEV/My_data/output/left/segmentation_images   /home/elahed/users/elahe/Cam2BEV/My_data/camera_config/right.yaml  /home/elahed/users/elahe/Cam2BEV/My_data/output/right/segmentation_images
+
+./occlusion.py     --batch /home/elahed/users/elahe/Cam2BEV/My_data/output/bev/segmentation_images     --output /home/elahed/users/elahe/Cam2BEV/My_data/output/bev+occlusion     /home/elahed/users/elahe/Cam2BEV/My_data/camera_config/bev.yaml     /home/elahed/users/elahe/Cam2BEV/My_data/camera_config/front.yaml     /home/elahed/users/elahe/Cam2BEV/My_data/camera_config/rear.yaml   /home/elahed/users/elahe/Cam2BEV/My_data/camera_config/left.yaml
