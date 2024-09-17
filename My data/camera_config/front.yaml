@@ -1,0 +1,20 @@
+# camera calibration matrix K
+fx: 184.951  # Derived focal length for x-axis
+fy: 184.951  # Derived focal length for y-axis
+px: 200.0    # Principal point x-coordinate (half of image width)
+py: 150.0    # Principal point y-coordinate (half of image height)
+
+# rotation matrix R (in degrees)
+yaw: 0.0
+pitch: 0.0
+roll: 0.0
+
+# vehicle coords of camera origin
+XCam: 1.5
+YCam: 0.0
+ZCam: 2.4
+
+# other parameters
+image_size_x: 400
+image_size_y: 300
+fov: 110
