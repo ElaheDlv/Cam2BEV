@@ -1,20 +1,16 @@
-# camera calibration matrix K
-fx: 184.951  # Derived focal length for x-axis
-fy: 184.951  # Derived focal length for y-axis
-px: 200.0    # Principal point x-coordinate (half of image width)
-py: 150.0    # Principal point y-coordinate (half of image height)
+# Camera intrinsic parameters
+  fx: 285.63   # Updated focal length for x
+  fy: 214.22   # Updated focal length for y
+  px: 200.0
+  py: 150.0
 
-# rotation matrix R (in degrees)
-yaw: -90.0
-pitch: 0.0
-roll: 0.0
+  # Camera extrinsic parameters (vehicle coordinates)
+  XCam: 0.0   # x position (centered on the car)
+  YCam: -1.5  # y position of the left camera
+  ZCam: 2.4   # z height of the camera
 
-# vehicle coords of camera origin
-XCam: 0.0
-YCam: -1.5
-ZCam: 2.4
+  # Rotation
+  yaw: -90.0  # Yaw angle (left side view)
+  pitch: 0.0  # Pitch angle
+  roll: 0.0   # Roll angle
 
-# other parameters
-image_size_x: 400
-image_size_y: 300
-fov: 110
