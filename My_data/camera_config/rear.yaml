@@ -1,15 +1,10 @@
-# Camera intrinsic parameters
-  fx: 285.63   # Updated focal length for x
-  fy: 214.22   # Updated focal length for y
+  fx: 285.63
+  fy: 214.22
   px: 200.0
   py: 150.0
-
-  # Camera extrinsic parameters (vehicle coordinates)
-  XCam: -1.5  # x position of the rear camera
-  YCam: 0.0   # y position of the rear camera (centered)
-  ZCam: 2.4   # z height of the camera
-
-  # Rotation
-  yaw: 180.0  # Yaw angle (facing backward)
-  pitch: 0.0  # Pitch angle
-  roll: 0.0   # Roll angle
+  yaw: 180.0
+  pitch: 0.0
+  roll: 0.0
+  XCam: -0.6
+  YCam: 0.0
+  ZCam: 1.4

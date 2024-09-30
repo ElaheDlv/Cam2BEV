@@ -5,7 +5,7 @@ px: 482.0
 py: 302.0
 
 # rotation matrix R (in deg)
-yaw:   -90.0
+yaw:   -45.0
 pitch:   0.0
 roll:    0.0
 

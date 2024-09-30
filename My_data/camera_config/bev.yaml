@@ -1,15 +1,10 @@
-  # Camera intrinsic parameters
-  fx: 285.63   # Updated focal length for x
-  fy: 214.22   # Updated focal length for y
+  fx: 682.58
+  fy: 682.58
   px: 200.0
   py: 150.0
-
-  # Camera extrinsic parameters (vehicle coordinates)
-  XCam: 0.0   # x position of BEV camera
-  YCam: 0.0   # y position of BEV camera (centered)
-  ZCam: 10.0  # z height of the BEV camera (top view)
-
-  # Rotation
-  yaw: 0.0     # Yaw angle
-  pitch: -90.0 # Pitch angle (facing downward)
-  roll: 0.0    # Roll angle
+  yaw: 0.0
+  pitch: -90.0
+  roll: -90.0
+  XCam: 0.0
+  YCam: 0.0
+  ZCam: 10.0
